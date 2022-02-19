@@ -1,0 +1,162 @@
+/**styling the document*/
+body,
+html {
+  background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/*Styling h1s*/
+h1,
+h3,
+.navbar-brand {
+  font-family: "Verdana", sans-serif;
+  font-weight: bold;
+}
+
+/*Styling paragraphs*/
+p,
+i,
+.nav-link {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+hr {
+  color: #0d47a1;
+}
+/*Position a div at the center of a page
+.main-div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} **/
+/**styling links***/
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+/*styling images*/
+.image-1 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/image-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-2 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/image-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-3 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/image-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.image-4 {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../images/image-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*Images to be used in the slider**/
+.partner1-img {
+  height: 300px;
+  /* width:100%; */
+  /* border-radius: 50%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url("../images/partner-1.jpg");
+}
+.partner2-img {
+  height: 300px;
+  /* width:100%; */
+  /* border-radius: 50%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/partner-2.png");
+}
+.partner3-img {
+  height: 300px;
+  /* width:100%; */
+  /* border-radius: 50%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/partner-3.png");
+}
+.partner5-img {
+  height: 300px;
+  /* width:100%; */
+  /* border-radius: 50%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/partner-5.png");
+}
+.partner10-img {
+  height: 300px;
+  /* width:100%; */
+  /* border-radius: 50%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/partner-10.jpg");
+}
+.logo-image-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-body {
+  height: 320px;
+  overflow-y: scroll;
+}
+/*scroll-up css**/
+
+/*headings in about us**/
+.section-header {
+  font-family: "Impact", "Haettenschweiler", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+  min-height: 150px;
+  background-image: url("../images/image-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 2;
+  color: white;
+}
+
+/*Fixing footer to the bottom of the page*/
+#main-footer {
+  margin-top: auto;
+}
