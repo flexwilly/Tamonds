@@ -38,12 +38,25 @@
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="icon" href="icons/logo.png" />
+    <style>
+      body,
+      html {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: white;
+        background-image: url("../images/wallpaper.png");
+      }
+    </style>
   </head>
   <body>
     <!--Header-->
     <header class="contact-us-header">
       <!--NavBar-->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <div class="container-fluid">
           <a href="index.html"
             ><img
@@ -51,8 +64,6 @@
               class="rounded-circle m-3"
               src="icons/logo.png"
               alt="logo"
-              height="40px"
-              width="40px"
           /></a>
           <a class="navbar-brand" href="#">Tamods Limited</a>
           <button
@@ -89,30 +100,15 @@
     </header>
     <!--End of Header-->
     <!--slider section-->
-    <section class="slider-section">
+    <!-- <section class="slider-section">
       <div class="slider col-12">
         <div class="image-1"></div>
         <div class="image-2"></div>
         <div class="image-3"></div>
-        <div class="image-4"></div>
       </div>
-    </section>
-    <!---Placing the logo of the business at the center of the page-->
-    <div class="logo-image-div">
-      <img
-        id="logo-img"
-        class="rounded-circle m-3"
-        src="icons/logo.png"
-        alt="logo"
-        height="50px"
-        width="50px"
-      />
-    </div>
-    <!--end-->
-    <!---scroll-up button-->
-
+    </section> -->
     <!--end slider section--->
-    <footer id="main-footer" class="fixed-bottom text-dark bg-light p-3">
+    <footer id="main-footer" class="fixed-bottom text-light bg-dark p-3">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-6 mx-auto">
